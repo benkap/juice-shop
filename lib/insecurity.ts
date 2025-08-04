@@ -27,9 +27,14 @@ const privateKey =
 const awsAccessID = "ASIAQKIPRWMSMWB64UDG";
 const awsAccessKey = "IdQ4anDXt5/xqjcNlf/e/Y9y46CfM1gIXd1UFsSB";
 
+const awsAccessID2 = "ASIAQKIPRWMSMWB64UD2";
+const awsAccessKey2 = "IdQ4anDXt5/xqjcNlf/e/Y9y46CfM1gIXd1UFsS2";
+
 import * as util from "util";
 util.log(`AWS Access ID: ${awsAccessID}`);
 util.log(`AWS Access Key: ${awsAccessKey}`);
+util.log(`AWS Access ID: ${awsAccessID2}`);
+util.log(`AWS Access Key: ${awsAccessKey2}`);
 
 interface ResponseWithUser {
   status?: string;
